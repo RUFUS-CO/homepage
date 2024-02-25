@@ -1,2 +1,1 @@
-export * from './lib/some-list/some-list';
-export * from './lib/shared-ui';
+export * from './lib/blockquote/blockquote';

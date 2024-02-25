@@ -1,3 +1,5 @@
+import { Blockquote } from '@react-monorepo/shared-ui';
+
 import profileImage from '../assets/profile.png';
 import resumePDF from '../assets/Cameron Strandberg - Software Engineer Resume copy.pdf';
 
@@ -19,7 +21,7 @@ export function App() {
               <span role="img" aria-label="hand-wave emoji">
                 👋
               </span>{' '}
-              Hi! I'm Cameron.
+              Hi! I'm Cam.
             </h1>
           </div>
           <div className="py-4">
@@ -54,36 +56,22 @@ export function App() {
             </p>
           </div>
           <div className="py-4">
-            <blockquote className="px-8 border-gray-300 relative before:absolute before:block before:content-['“'] before:text-4xl before:left-[-6px] before:top-[-14px]">
-              <p className="text-base italic leading-relaxed ">
-                Cameron is just awesome. His work has that attention to detail
-                and craft that really shines.
-                <br />
-                <a
-                  href={resumePDF}
-                  className="underline text-white font-medium hover:text-indigo-900 hover:bg-yellow-400 mt-2 inline-block"
-                  download
-                >
-                  - former project manager
-                </a>
-              </p>
-            </blockquote>
+            <Blockquote
+              href={resumePDF}
+              hrefText={'former project manager'}
+              linkText={
+                'Cameron is just awesome. His work has that attention to detail and craft that really shines.'
+              }
+            />
           </div>
           <div className="py-4">
-            <blockquote className="px-8 border-gray-300 relative before:absolute before:block before:content-['“'] before:text-4xl before:left-[-6px] before:top-[-14px]">
-              <p className="text-base italic leading-relaxed ">
-                Cameron's work on our text editor has been outstanding in making
-                it performant, accessible, well tested and beautiful to use.
-                <br />
-                <a
-                  href={resumePDF}
-                  className="underline text-white font-medium hover:text-indigo-900 hover:bg-yellow-400 mt-2 inline-block"
-                  download
-                >
-                  - former lead engineer
-                </a>
-              </p>
-            </blockquote>
+            <Blockquote
+              href={resumePDF}
+              hrefText={'former lead engineer'}
+              linkText={
+                'Camerons work on our text editor has been outstanding in making it performant, accessible, well tested and beautiful to use and look at.'
+              }
+            />
           </div>
         </div>
       </div>
