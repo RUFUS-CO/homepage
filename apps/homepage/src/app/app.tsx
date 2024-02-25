@@ -1,10 +1,13 @@
+import profileImage from '../assets/profile.png';
+import resumePDF from '../assets/Cameron Strandberg - Software Engineer Resume copy.pdf';
+
 export function App() {
   return (
     <div className="min-h-screen bg-[#150f1c] lato-regular p-5">
       <div className="mx-auto max-w-4xl min-h-screen flex text-white ">
         <div className="w-1/4 p-2">
           <img
-            src="/src/assets/profile.png"
+            src={profileImage}
             alt="profile"
             className="rounded-full border-4 border-white-500"
           />
@@ -41,7 +44,7 @@ export function App() {
             <p className="text-base">
               Here is my{' '}
               <a
-                href="/src/assets/Cameron Strandberg - Software Engineer Resume.pdf"
+                href={resumePDF}
                 className="underline text-yellow-300 font-bold hover:text-indigo-900 hover:bg-yellow-400"
                 download
               >
