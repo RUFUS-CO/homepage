@@ -4,5 +4,11 @@
   "sourceRoot": "apps/homepage/src",
   "projectType": "application",
   "targets": {},
-  "tags": []
+  "tags": [],
+  "lint": {
+    "executor": "@nx/eslint:lint",
+    "options": {
+      "lintFilePatterns": ["src/**/*.ts", "src/**/*.tsx"]
+    }
+  }
 }
