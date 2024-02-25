@@ -55,13 +55,13 @@ export function App() {
           </div>
           <div className="py-4">
             <blockquote className="px-8 border-gray-300 relative before:absolute before:block before:content-['“'] before:text-4xl before:left-[-6px] before:top-[-14px]">
-              <p className="text-base italic font-medium leading-relaxed ">
+              <p className="text-base italic leading-relaxed ">
                 Cameron is just awesome. His work has that attention to detail
                 and craft that really shines.
                 <br />
                 <a
                   href={resumePDF}
-                  className="underline text-white font-bold hover:text-indigo-900 hover:bg-yellow-400 mt-4 inline-block"
+                  className="underline text-white font-medium hover:text-indigo-900 hover:bg-yellow-400 mt-2 inline-block"
                   download
                 >
                   - former project manager
@@ -71,13 +71,13 @@ export function App() {
           </div>
           <div className="py-4">
             <blockquote className="px-8 border-gray-300 relative before:absolute before:block before:content-['“'] before:text-4xl before:left-[-6px] before:top-[-14px]">
-              <p className="text-base italic font-medium leading-relaxed ">
+              <p className="text-base italic leading-relaxed ">
                 Cameron's work on our text editor has been outstanding in making
                 it performant, accessible, well tested and beautiful to use.
                 <br />
                 <a
                   href={resumePDF}
-                  className="underline text-white font-bold hover:text-indigo-900 hover:bg-yellow-400 mt-4 inline-block"
+                  className="underline text-white font-medium hover:text-indigo-900 hover:bg-yellow-400 mt-2 inline-block"
                   download
                 >
                   - former lead engineer
