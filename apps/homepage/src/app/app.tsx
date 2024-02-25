@@ -4,7 +4,7 @@ import resumePDF from '../assets/Cameron Strandberg - Software Engineer Resume c
 export function App() {
   return (
     <div className="min-h-screen bg-[#150f1c] lato-regular p-5">
-      <div className="mx-auto max-w-4xl min-h-screen flex text-white ">
+      <div className="mx-auto max-w-5xl min-h-screen flex text-white ">
         <div className="w-1/4 p-2">
           <img
             src={profileImage}
@@ -53,7 +53,38 @@ export function App() {
               .
             </p>
           </div>
-          <div className="py-4"></div>
+          <div className="py-4">
+            <blockquote className="px-8 border-gray-300 relative before:absolute before:block before:content-['“'] before:text-4xl before:left-[-6px] before:top-[-14px]">
+              <p className="text-base italic font-medium leading-relaxed ">
+                Cameron is just awesome. His work has that attention to detail
+                and craft that really shines.
+                <br />
+                <a
+                  href={resumePDF}
+                  className="underline text-white font-bold hover:text-indigo-900 hover:bg-yellow-400 mt-4 inline-block"
+                  download
+                >
+                  - former project manager
+                </a>
+              </p>
+            </blockquote>
+          </div>
+          <div className="py-4">
+            <blockquote className="px-8 border-gray-300 relative before:absolute before:block before:content-['“'] before:text-4xl before:left-[-6px] before:top-[-14px]">
+              <p className="text-base italic font-medium leading-relaxed ">
+                Cameron's work on our text editor has been outstanding in making
+                it performant, accessible, well tested and beautiful to use.
+                <br />
+                <a
+                  href={resumePDF}
+                  className="underline text-white font-bold hover:text-indigo-900 hover:bg-yellow-400 mt-4 inline-block"
+                  download
+                >
+                  - former lead engineer
+                </a>
+              </p>
+            </blockquote>
+          </div>
         </div>
       </div>
     </div>
