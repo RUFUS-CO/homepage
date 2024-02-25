@@ -1,10 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
-
-import NxWelcome from './nx-welcome';
-// importing the component from the library
-import { SomeList } from '@react-monorepo/shared-ui';
-
 export function App() {
   return (
     <div className="min-h-screen bg-[#150f1c] lato-regular p-5">
@@ -19,7 +12,12 @@ export function App() {
         {/* w-1/4 sets the width to 25% of the parent */}
         <div className="w-3/4 p-4">
           <div className="py-4">
-            <h1 className="text-xl">👋 Hi! I'm Cameron</h1>
+            <h1 className="text-xl">
+              <span role="img" aria-label="hand-wave emoji">
+                👋
+              </span>{' '}
+              Hi! I'm Cameron.
+            </h1>
           </div>
           <div className="py-4">
             <p className="text-base">I build awesome software.</p>
