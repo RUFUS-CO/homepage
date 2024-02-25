@@ -53,8 +53,7 @@ export function App() {
             </p>
           </div>
           <div className="py-4"></div>
-        </div>{' '}
-        {/* w-3/4 sets the width to 75% of the parent */}
+        </div>
       </div>
     </div>
   );
