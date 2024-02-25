@@ -50,7 +50,7 @@ jobs:
       # As simple as that, we just use our normal package.json script
       # to build the site
       - name: Build Site
-        run: yarn build
+        run: npm run build
       # Here we run terraform init
       - name: 'Terraform Init'
         uses: hashicorp/terraform-github-actions@master
