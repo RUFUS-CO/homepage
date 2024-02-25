@@ -25,7 +25,7 @@ export default defineConfig({
   // },
 
   build: {
-    outDir: './buld/homepage',
+    outDir: './build/homepage',
     reportCompressedSize: true,
     commonjsOptions: {
       transformMixedEsModules: true,
