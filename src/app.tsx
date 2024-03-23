@@ -1,7 +1,6 @@
-import { Blockquote } from '@react-monorepo/shared-ui';
-
-import profileImage from '../assets/profile.png';
-import resumePDF from '../assets/Cameron Strandberg - Software Engineer Resume copy.pdf';
+import { Blockquote } from './components/BlockQuote';
+import profileImage from './assets/profile.png';
+import resumePDF from './assets/Cameron Strandberg - Software Engineer Resume copy.pdf';
 
 export function App() {
   return (
@@ -26,7 +25,7 @@ export function App() {
               </h1>
             </div>
             <div className="py-4">
-              <p className="text-base">I build awesome software.</p>
+              <p className="text-base">I build software.</p>
             </div>
             <div className="py-4">
               <p className="text-base">
