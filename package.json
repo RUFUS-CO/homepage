@@ -1,8 +1,11 @@
 {
-  "name": "@react-monorepo/source",
+  "name": "cameron-strandberg-portfolio",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
   "private": true,
   "dependencies": {
     "react": "18.2.0",
@@ -24,6 +27,7 @@
     "@nx/web": "18.0.4",
     "@nx/workspace": "18.0.4",
     "@playwright/test": "^1.36.0",
+    "@sveltejs/vite-plugin-svelte": "^3.0.2",
     "@swc-node/register": "~1.8.0",
     "@swc/cli": "~0.1.62",
     "@swc/core": "~1.3.85",
