@@ -6,8 +6,6 @@ import Link from 'next/link';
 export default function Home() {
   const postMetadata = getPostMetadata('posts');
 
-  console.log(postMetadata);
-
   return (
     <>
       <div className="py-4">
@@ -72,6 +70,13 @@ export default function Home() {
           }
         />
       </div>
+      {postMetadata.map((post) => {
+        return (
+          <div>
+            <Link href={`/blog/${post.slug}`}>{post.slug}</Link>
+          </div>
+        );
+      })}
     </>
   );
 }
