@@ -70,13 +70,13 @@ export default function Home() {
           }
         />
       </div>
-      {postMetadata.map((post) => {
+      {/* {postMetadata.map((post) => {
         return (
           <div>
             <Link href={`/blog/${post.slug}`}>{post.slug}</Link>
           </div>
         );
-      })}
+      })} */}
     </>
   );
 }
