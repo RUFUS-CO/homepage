@@ -5,9 +5,10 @@ export function SiderBar() {
   return (
     <div className="w-1/4 p-2">
       <Image
+        unoptimized
         src={'/assets/profile.png'}
-        height={400}
-        width={400}
+        height="200"
+        width="200"
         alt="profile image, very handsome."
         className="rounded-full border-4 border-white-500"
       />
