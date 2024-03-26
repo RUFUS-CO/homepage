@@ -23,8 +23,8 @@ const latoItalic = Lato({
 });
 
 export const metadata = {
-  title: 'Hunter in front of congress.',
-  description: 'Get your back.',
+  title: 'Cameron Strandberg',
+  description: 'Just some guy.',
 };
 
 export default function RootLayout({ children }) {
