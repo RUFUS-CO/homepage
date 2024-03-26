@@ -5,6 +5,7 @@ export function SiderBar() {
   return (
     <div className="w-1/4 p-2">
       <Image
+        priority
         unoptimized
         src={'/assets/profile.png'}
         height="400"
